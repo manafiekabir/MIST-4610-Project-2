@@ -10,24 +10,28 @@
 6. Sydney Seid [@sydneyseid](https://www.github.com/sydneyseid)
 
 ## Dataset Description
-Source: The dataset originates from the Shark Incident Database for California, which is maintained and published by the California Department of Fish and Wildlife.
+Source: 
+The dataset originates from the Shark Incident Database for California, which is maintained and published by the California Department of Fish and Wildlife.
 
-Overview: The dataset comprises 12 distinct subsets: Attacks 1950_2021, WhiteSharks, Fatalities, Counties, Species, Activity, Month, TimeofDay, MoonPhase, GIS_All_Incidents, GIS_Injuries, and GIS_Fatalities. Each subset serves the purpose of organizing data in a user-friendly manner while sharing common columns across them.
+Overview: 
+The dataset comprises 12 distinct subsets: Attacks 1950_2021, WhiteSharks, Fatalities, Counties, Species, Activity, Month, TimeofDay, MoonPhase, GIS_All_Incidents, GIS_Injuries, and GIS_Fatalities. Each subset serves the purpose of organizing data in a user-friendly manner while sharing common columns across them.
 
-Common Columns: The subsets contain a set of 16 common columns/records, providing consistent data attributes throughout. The columns are as follows:
-    IncidentNum (Integer): Unique numerical identifier for each incident. (Primary Key)
-    Date (Date): The date when the incident occurred.
-    Time (Time): The time of day when the incident took place.
-    County (String): Name of the county where the incident occurred.
-    Location (String): Description of the specific location within the county.
-    Mode (String): Method or activity engaged in during the incident.
-    Injury (String): Description of the injury sustained during the incident.
-    InjuryType (String): Type or severity classification of the injury.
-    Depth (String): Depth of the water at the incident location.
-    Species (String): Identification of the shark species involved, if applicable.
-    Comments (Text): Additional remarks or details regarding the incident.
-    Moon Phase(String): What phase the moon was in when an incident occurred. 
-    Percent-Full(Decimal): Percentage describing how close the moon was to being full. 
-    Longitude(Integer): Longitude where an incident occurred. 
-    Latitude(Integer): Latitude where an incident occurred.
-    Confirmed Source(Text): News source that provided confirmation of a given incident.
+Common Columns: The subsets contain a set of 16 common columns/records, providing consistent data attributes throughout. 
+The columns are as follows:
+
+1. IncidentNum (Integer): Unique numerical identifier for each incident. (Primary Key)
+2. Date (Date): The date when the incident occurred.
+3. Time (Time): The time of day when the incident took place.
+4. County (String): Name of the county where the incident occurred.
+5. Location (String): Description of the specific location within the county.
+6. Mode (String): Method or activity engaged in during the incident.
+7. Injury (String): Description of the injury sustained during the incident.
+8. InjuryType (String): Type or severity classification of the injury.
+9. Depth (String): Depth of the water at the incident location.
+10. Species (String): Identification of the shark species involved, if applicable.
+11. Comments (Text): Additional remarks or details regarding the incident.
+12. Moon Phase(String): What phase the moon was in when an incident occurred.
+13. Percent-Full(Decimal): Percentage describing how close the moon was to being full.
+14. Longitude(Integer): Longitude where an incident occurred.
+15. Latitude(Integer): Latitude where an incident occurred.
+16. Confirmed Source(Text): News source that provided confirmation of a given incident.
